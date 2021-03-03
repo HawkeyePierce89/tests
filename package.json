@@ -4,7 +4,21 @@
   "main": "index.js",
   "repository": "git@github.com:HawkeyePierce89/tests.git",
   "license": "MIT",
+  "scripts": {
+    "dev": "cd ./1 && next dev",
+    "build": "cd ./1 && next build",
+    "start": "cd ./1 && next start"
+  },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@zeit/next-less": "^1.0.1",
+    "jest": "^26.6.3",
+    "less": "^4.1.1",
+    "webpack": "4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }

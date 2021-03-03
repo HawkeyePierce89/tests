@@ -1,0 +1,152 @@
+{
+    "childs": {
+        "catalog": {
+            "title": "Каталог товаров и услуг",
+            "url": "catalog",
+            "childs": {
+                "bytovaja-tehnika": {
+                    "title": "Бытовая техника",
+                    "url": "bytovaja-tehnika",
+                    "childs": {
+                        "tovary-dlja-kuhni": {
+                            "title": "Товары для кухни",
+                            "url": "tovary-dlja-kuhni",
+                            "childs": {
+                                "prigotovlenie-pishhi": {
+                                    "title": "Приготовление пищи",
+                                    "url": "prigotovlenie-pishhi"
+                                },
+                                "prigotovlenie-napitkov": {
+                                    "title": "Приготовление напитков",
+                                    "url": "prigotovlenie-napitkov"
+                                },
+                                "holodilnoe-oborudovanie": {
+                                    "title": "Холодильное оборудование",
+                                    "url": "holodilnoe-oborudovanie"
+                                }
+                            }
+                        },
+                        "tovary-dlja-doma": {
+                            "title": "Товары для дома",
+                            "url": "tovary-dlja-doma",
+                            "childs": {
+                                "stirka-sushka-i-glazhka": {
+                                    "title": "Стирка, сушка и глажка",
+                                    "url": "stirka-sushka-i-glazhka"
+                                },
+                                "uborka": {
+                                    "title": "Уборка",
+                                    "url": "uborka"
+                                },
+                                "klimat": {
+                                    "title": "Климат",
+                                    "url": "klimat"
+                                }
+                            }
+                        },
+                        "krasota-i-zdorove": {
+                            "title": "Красота и здоровье",
+                            "url": "krasota-i-zdorove",
+                            "childs": {
+                                "ukladka-i-sushka-volos": {
+                                    "title": "Укладка и сушка волос",
+                                    "url": "ukladka-i-sushka-volos"
+                                },
+                                "strizhka-volos": {
+                                    "title": "Стрижка волос",
+                                    "url": "strizhka-volos"
+                                },
+                                "britjo-i-jepiljacija": {
+                                    "title": "Бритьё и эпиляция",
+                                    "url": "britjo-i-jepiljacija"
+                                }
+                            }
+                        }
+                    }
+                },
+                "smartfony-i-gadzhety": {
+                    "title": "Смартфоны и гаджеты",
+                    "url": "smartfony-i-gadzhety",
+                    "chidls": {
+                        "smartfony-i-gadzhety": {
+                            "title": "Смартфоны и гаджеты",
+                            "url": "smartfony-i-gadzhety",
+                            "childs": {
+                                "smartfony": {
+                                    "title": "Смартфоны",
+                                    "url": "smartfony"
+                                },
+                                "chasy-i-braslety": {
+                                    "title": "Часы и браслеты",
+                                    "url": "chasy-i-braslety"
+                                },
+                                "sotovye-telefony": {
+                                    "title": "Сотовые телефоны",
+                                    "url": "sotovye-telefony"
+                                }
+                            }
+                        },
+                        "planshety-jelektronnye-knigi": {
+                            "title": "Планшеты, электронные книги",
+                            "url": "planshety-jelektronnye-knigi",
+                            "childs": {
+                                "planshety": {
+                                    "title": "Планшеты",
+                                    "url": "planshety"
+                                },
+                                "jelektronnye-knigi": {
+                                    "title": "Электронные книги",
+                                    "url": "jelektronnye-knigi"
+                                },
+                                "aksessuary-dlja-planshetov": {
+                                    "title": "Аксессуары для планшетов",
+                                    "url": "aksessuary-dlja-planshetov"
+                                }
+                            }
+                        },
+                        "fototehnika": {
+                            "title": "Фототехника",
+                            "url": "fototehnika",
+                            "childs": {
+                                "fotoapparaty": {
+                                    "title": "Фотоаппараты",
+                                    "url": "fotoapparaty"
+                                },
+                                "jekshn-kamery-i-aksessuary": {
+                                    "title": "Экшн-камеры и аксессуары",
+                                    "url": "jekshn-kamery-i-aksessuary"
+                                },
+                                "videokamery": {
+                                    "title": "Видеокамеры",
+                                    "url": "videokamery"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tv-i-razvlechenija": {
+                    "title": "ТВ и развлечения",
+                    "url": "tv-i-razvlechenija"
+                }
+            }
+        },
+        "informacija-dlja-pokupatelej": {
+            "title": "Информация для покупателей",
+            "url": "informacija-dlja-pokupatelej",
+            "childs": {
+                "kak-oformit-zakaz": {
+                    "title": "Как оформить заказ",
+                    "url": "kak-oformit-zakaz"
+                },
+                "dostavka": {
+                    "title": "Доставка",
+                    "url": "dostavka"
+                },
+                "sposoby-oplaty": {
+                    "title": "Способы оплаты",
+                    "url": "sposoby-oplaty"
+                }
+            }
+        }
+    }
+}

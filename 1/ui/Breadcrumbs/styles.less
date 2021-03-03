@@ -1,0 +1,31 @@
+.breadcrumbs {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 16px;
+
+    .wrapper {
+        display: flex;
+
+        &::before{
+            content: "\200B";
+        }
+        &[data-hide-last-element="true"] {
+            overflow: hidden;
+        }
+        .item {
+            white-space: nowrap;
+        }
+        .item:nth-child(n+2) {
+            margin-left: 15px;
+
+            &:before {
+                content: "→";
+                margin-right: 15px;
+            }
+        }
+        &[data-hide-last-element="true"] .item:last-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
