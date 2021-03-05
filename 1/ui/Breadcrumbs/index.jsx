@@ -3,7 +3,7 @@ import Link from "next/link";
 import cloneDeep from "lodash/cloneDeep";
 import throttle from "lodash/throttle";
 
-import generateUniqId from "../../helpers/generateUniqId";
+import generateUniqId from "~/helpers/generateUniqId";
 
 import styles from './styles.less';
 
@@ -96,10 +96,6 @@ function Breadcrumbs({ pages: propPages, className }) {
             } else {
                 pagesByWidth.current.set($wrapper.current.offsetWidth, cloneDeep(pages));
                 pagesEnumeration.current = null;
-
-                // после перебора возможных ширин и соответствующих pages сбрасываем отображение к исходному виду
-                currentlyDisplayedWidth.current = pagesByWidth.current.entries().next().value[0];
-                setPages(propPages);
 
                 setActualPages();
             }

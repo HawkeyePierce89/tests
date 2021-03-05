@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import sitemap from "../contexts/sitemap.json";
+import sitemap from "~/contexts/sitemap.json";
 
 function HomePage() {
     return <section>

@@ -2,10 +2,10 @@ import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/router';
 import Link from "next/link";
 
-import BigRed200 from "../../components/BigRed200";
-import Breadcrumbs from "../../ui/Breadcrumbs";
-import generateUniqId from "../../helpers/generateUniqId";
-import sitemap from "../../contexts/sitemap.json";
+import BigRed200 from "~/components/BigRed200";
+import Breadcrumbs from "~/ui/Breadcrumbs";
+import generateUniqId from "~/helpers/generateUniqId";
+import sitemap from "~/contexts/sitemap.json";
 
 import styles from './styles.less';
 
