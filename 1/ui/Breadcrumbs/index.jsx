@@ -43,7 +43,7 @@ function Breadcrumbs({ pages: propPages, className }) {
     function setActualPages() {
         let iterator = 0;
 
-        for (var [width, possiblePages] of pagesByWidth.current) {
+        for (let [width, possiblePages] of pagesByWidth.current) {
             iterator++;
 
             if ($nav.current.offsetWidth > width) {
